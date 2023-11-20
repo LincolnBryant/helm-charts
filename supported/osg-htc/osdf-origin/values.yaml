@@ -63,6 +63,8 @@ authOrigin:
     #  user: "user"
     #  secretRef: 
     #    name: secretName
+    #  path: "/" ## optional
+    #  readOnly: false ## optional
 
 ## Uncomment and fill out for extra xrootd config lines, added before the OSG-provided config
 # extraXrootdConfigBefore: |-
